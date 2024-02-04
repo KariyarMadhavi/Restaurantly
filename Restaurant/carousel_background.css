@@ -1,0 +1,53 @@
+.outer{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    animation: animate 30s ease-in-out infinite;
+    background-size:cover;
+    background-repeat:no-repeat,repeat;
+}
+
+.container{
+    position:absolute;
+    width:70%;
+    height:100vh;
+    
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image:url(image1.jpeg);
+    }
+    10%{
+        background-image:url(image3.jpeg);
+    }
+    20%{
+        background-image:url(image6.jpeg);
+    }
+    30%{
+        background-image:url(image7.jpeg);
+    }
+    40%{
+        background-image:url(image14.jpeg);
+    }
+    50%{
+        background-image:url(image9.jpeg);
+    }
+    60%{
+        background-image:url(image11.jpeg);
+    }
+
+    70%{
+        background-image:url(image12.jpeg);
+    }
+
+    80%{
+        background-image:url(image13.jpeg);
+    }
+
+    90%{
+        background-image:url(image14.jpeg);
+    }
+}

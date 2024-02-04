@@ -1,0 +1,15 @@
+form{
+   text-align:center;
+   background-color:powderblue;
+   font-size:20px;
+   width:100%;
+   margin-top:16px;
+   margin-bottom:5px;
+   border-radius:5px;
+   box-sizing: border-box;
+}
+h2{
+    text-align:center;
+    color:blueviolet;
+    
+}
